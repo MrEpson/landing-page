@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Roboto, sans-serif;
     margin: 0;
 }
 
@@ -36,7 +36,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap:48px;
     background-color: #1f2937;
 }
 
@@ -53,4 +52,7 @@ body {
 
 .body-one .text button {
     background-color: #3882f6;
+    border: 1px solid #3882f6;;
+    color: white;
 }
+

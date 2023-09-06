@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    font-family: Roboto, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
 }
 
@@ -93,4 +93,26 @@ button {
 .image-3,
 .image-4 {
     max-width: 200px;
+}
+
+.body-three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-three .quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    width: 800px;
+    flex: auto;
+}
+
+.body-three .signature {
+    text-align: right;
+    width: 750px;
+    font-size: 16px;
+    font-weight: bold;
 }

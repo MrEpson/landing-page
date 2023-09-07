@@ -11,6 +11,7 @@ body {
     background-color: #1f2937;
     align-items: center;
     justify-content: space-between;
+    padding: 16px 256px;
 }
 
 .header ul {
@@ -38,15 +39,24 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
+    padding: 24px 256px;
 }
 
-.body-one .text .awesome {
+.body-one .hero {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 450px;
+    height: 250px;
+}
+
+.body-one .hero .hero-main {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
 }
 
-.body-one .text .subtext {
+.body-one .hero .hero-secondary {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -58,11 +68,12 @@ button {
     padding: 8px 24px;
     border-radius: 8px;
     font-weight: bold;
-    flex: none;
+    font-size: 16px;
 }
 
-.body-one button {
+.body-one .hero button {
     border: 1px solid #3882f6;
+    width: max-content;
 }
 
 .body-four button {
